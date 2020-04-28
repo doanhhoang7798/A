@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 2, 2019, 11:51:21 PM
+    Author     : Hp-Pc
+*/
+.item {
+    border-bottom: 3px dotted #cccccc;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.product .item a h2 {
+    color: #000000;
+}
+
+.product {
+    padding: 20px 0px;
+}
+
+.banner {
+    /* border-bottom: 3px dotted #cccccc; */
+    width: 95%;
+    border-bottom: 3px dotted #cccccc;
+    padding-bottom: 15px;
+}
+.product .item .contentProduct img {
+    width: 50%;
+   /*ca 4 goc dc uon cong*/
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    margin-top: 3px;
+}
+
+.product .item .description{
+    padding-right: 10px;
+}
+
+.wrapper {
+    margin-top: 39px;
+    margin-left: 27px;
+}
+
+.banner img.mainImg {
+    width: 100%;
+    border-radius: 10px;
+   
+}

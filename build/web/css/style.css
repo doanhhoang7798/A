@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+ 
+    Created on : Mar 2, 2019, 11:51:42 PM
+    Author     : Hp-Pc*/
+
+body {
+    background-color: #D5F46B;
+    background-image: url('../images/background.jpg');
+    /*hinh nen dc lap lai theo chieu ngang*/
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    margin:0; 
+    padding:0;
+    /*chi dinh font chu*/
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.footer {
+    /*tao kg xq 1 ptu ben trong dg vien*/
+    /*dem tren duoi: 0, trai phai: 15*/
+    padding: 0px 15px;
+}
+
+
+
+.aside {
+    /*dat do dai cua 1 muc linh hoat*/
+    flex-basis: 24%;
+    padding: 30px 0px;
+}
+
+.left {
+    flex-basis: 73%;
+    padding: 30px 0px;
+}
+
+.container {
+    width: 78%;
+    /*tao kg xq ptu ben ngoai dg vien*/
+    margin: 0 auto;
+    background-color: #ffffff;
+    /*dat le duoi cho ptu*/
+    margin-bottom: 50px;
+    /*lam tron goc cua ptu*/
+    border-radius: 0 0 15px 15px;
+    /*them bong cho ptu*/
+    /* rgba: cuong do mau, alpha: muc do trong suot cua mau*/
+    box-shadow: 0 0 24px rgba(0,0,0,.8)
+}
+
+a {
+    /*dinh dang vb bt, mac dinh*/
+	text-decoration: none;
+}
+ 
+.navbar ul li a {
+    color:  gray;
+    font-size: 16px;
+}
+    /*lien ket se hd khi nhap vao no*/
+.navbar ul li a.active {
+	font-weight: bold;
+        color:  white;
+}
+
+/*.navbar ul li a true{
+	font-weight: bold;
+        color:  white;
+}*/
+        /*the hien lie ket khi di chuot qua*/
+.navbar ul li a:hover {
+    /*xd dg gach duoi vb*/
+	text-decoration: underline;
+}
+
+.header .title a:hover {
+	text-decoration: underline;
+	text-decoration-color:  #B5CB67;
+}
+
+.title {
+    /*kg trong dg vien*/
+    padding-left: 15px;
+    padding-top: 27px;
+    padding-bottom: 18px;
+    line-height: 12px;
+}
+
+nav.navbar {
+    background-color: #303030;
+    /*an nd tran khoi hop cua 1 ptu*/
+    overflow: hidden;
+    /*ngan chan chiem vung kg*/
+     clear: both; 
+}
+
+.header {
+    background-color: #535353;
+}
+
+ul.menu {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li {
+    /*giới hạn chiều rộng nhỏ nhất cho thành phần, không làm mất background khi text ít hơn hay khi zoom window.*/
+    min-width: 40px;
+    /*tp dc troi noi sang ben trai*/
+    float: left;
+    list-style: none;
+    padding: 10px 15px;
+}
+
+p.subcribe {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 22px;
+  
+    color: #ffffff;
+}
+
+
+
+h1.nameRestaurant {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 47px;
+    color: aquamarine;
+    /*do day mong cua font chu, lighter: chu mong*/
+     font-weight: lighter; 
+}
+
+.pagger {
+    text-align:    center;
+}
